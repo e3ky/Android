@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.home_work_week0.cpt2mab.myapplication" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ColorPreviewerBasic"
+            android:label="@string/title_activity_color_previewer_basic" >
+        </activity>
+        <activity
+            android:name=".ColorPreviewerRealTime"
+            android:label="@string/title_activity_color_previewer_real_time" >
+        </activity>
+        <activity
+            android:name=".VideoPlayer"
+            android:label="@string/title_activity_video_player" >
+        </activity>
+        <activity
+            android:name=".FlagsEasy"
+            android:label="@string/title_activity_flags_easy" >
+        </activity>
+        <activity
+            android:name=".FlagsMedium"
+            android:label="@string/title_activity_flags_medium" >
+        </activity>
+        <activity
+            android:name=".FlagsHard"
+            android:label="@string/title_activity_flags_hard" >
+        </activity>
+    </application>
+
+</manifest>

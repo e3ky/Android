@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Week0-widgets</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="show_color">Show color</string>
+    <string name="title_activity_color_previewer_basic">ColorPreviewerBasic</string>
+    <string name="title_activity_color_previewer_real_time">ColorPreviewerRealTime</string>
+    <string name="title_activity_video_player">VideoPlayer</string>
+    <string name="title_activity_flags_easy">FlagsEasy</string>
+    <string name="title_activity_flags_medium">FlagsMedium</string>
+    <string name="title_activity_flags_hard">FlagsHard</string>
+
+</resources>
