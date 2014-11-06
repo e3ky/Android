@@ -111,7 +111,7 @@ public class Puzzle extends Activity {
                             Toast.makeText(Puzzle.this, "Congratulations, Borisov", Toast.LENGTH_LONG).show();
 
                             for(ImageView imgView:currentStateOfImageViews){
-                                view.setEnabled(false);
+                                imgView.setEnabled(false);
                             }
                         }
                     }
