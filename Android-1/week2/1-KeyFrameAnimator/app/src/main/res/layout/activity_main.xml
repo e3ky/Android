@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main"
+    android:background="#ffffff">
+
+   <ImageView
+       android:id="@+id/image"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/eek"
+       android:adjustViewBounds="true"
+       android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/instruction_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To reset the animation just double tap"
+
+        android:layout_above="@+id/save_state_button"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/save_state_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save state"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/play_animation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play animation"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
