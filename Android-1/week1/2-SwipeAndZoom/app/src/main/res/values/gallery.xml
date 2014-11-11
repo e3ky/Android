@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="gallery">
+        <item>@drawable/bro_christmas</item>
+        <item>@drawable/bronar_jenson</item>
+        <item>@drawable/broney_ross</item>
+        <item>@drawable/trent_broser</item>
+    </array>
+</resources>
