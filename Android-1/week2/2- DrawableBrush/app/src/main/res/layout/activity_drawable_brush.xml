@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFD6D7D7"
+    tools:context=".DrawableBrush">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageButton
+            android:id="@+id/chrome_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chrome"
+            android:onClick="clicked"
+            android:background="@drawable/not_clicked"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/firefox_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/firefox"
+            android:onClick="clicked"
+            android:background="@drawable/not_clicked"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/ie_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ie"
+            android:onClick="clicked"
+            android:background="@drawable/not_clicked"
+            android:layout_margin="3dp"
+            android:layout_gravity="center"/>
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:progress="50"
+            android:max="99"
+            />
+
+        <TextView
+            android:id="@+id/brush_size"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="50"/>
+
+    </LinearLayout>
+
+    <com.week2.cpt2mab.drawablebrush.PaperView
+        android:id="@+id/paper_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFFFF"/>
+
+</LinearLayout>
